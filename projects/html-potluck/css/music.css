@@ -9,52 +9,96 @@ body{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
         sans-serif;
         font-size:larger;
+        text-align: center;
     }
     #song-name{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
         sans-serif;
         text-align: center;
         font-size: 30px;
+        border: solid black;
+        background-color: rgb(121, 148, 121);
     }
     #order-list1{
         background-color: rgb(35, 204, 49);
+        padding: 10px;
         font-size: 20px;
         color: rgb(236, 14, 14);
+        border: solid black;
+        border-radius: 24px;
     }
     #order-list2{
         background-color: rgb(14, 71, 19);
         font-size: 20px;
+        padding: 10px;
+        font-size: 20px;
+        border: solid black;
+        border-radius: 24px;
     }
     #order-list3{
         background-color: rgb(14, 71, 19);
         font-size: 20px;
+        padding: 10px;
+        font-size: 20px;
+        border: solid black;
+        border-radius: 24px;
     }
     #order-list4{
         background-color: rgb(14, 71, 19);
         font-size: 20px;
+        padding: 10px;
+        font-size: 20px;
+        border: solid black;
+        border-radius: 24px;
     }
     #order-list5{
         background-color: rgb(14, 71, 19);
         font-size: 20px;
+        padding: 10px;
+        font-size: 20px;
+        border: solid black;
+        border-radius: 24px;
     }
     #order-list6{
         background-color: rgb(14, 71, 19);
         font-size: 20px;
+        padding: 10px;
+        font-size: 20px;
+        border: solid black;
+        border-radius: 24px;
     }
     #order-list7{
         background-color: rgb(14, 71, 19);
         font-size: 20px;
+        padding: 10px;
+        font-size: 20px;
+        border: solid black;
+        border-radius: 24px;
     }
     #order-list8{
         background-color: rgb(14, 71, 19);
         font-size: 20px;
+        padding: 10px;
+        font-size: 20px;
+        border: solid black;
+        border-radius: 24px;
     }
     #order-list9{
         background-color: rgb(14, 71, 19);
         font-size: 20px;
+        padding: 10px;
+        font-size: 20px;
+        border: solid black;
+        border-radius: 24px;
     }
     #order-list10{
         background-color: rgb(14, 71, 19);
         font-size: 20;
+        padding: 10px;
+        font-size: 20px;
+        border: solid black;
+        border-radius: 24px;
     }
-}
+    #image-test{
+        text-align: center;
+    }
