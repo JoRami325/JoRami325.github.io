@@ -1,0 +1,56 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+#image-1{
+    width: 100px;
+    margin-top: 40px;
+    border: 10px inset lightgreen;
+    padding: 5px;
+    background-color: grey
+}
+#frame-1{
+    width: 175;
+}
+#image-2{
+    width: 90px;
+    margin-top: 42px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    border: 10px inset brown;
+    background-color: rgb(107, 31, 31);
+    padding: 5px;
+    border-radius: 50px;
+}
+#image-3{ 
+    width: 100px;
+    margin: 40px;
+    border: 10px ridge darkred;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 5px;
+}
+#image-4{
+    width: 150px;
+    border: 10px ridge gold;
+    background-color: silver;
+    padding-left: ;
+    border-radius: 100px;
+    box-shadow: inset green; 
+    
+}
+#frame-4{
+    padding-left: 25px;
+}
+#image-5{
+    width: 130px;
+    border: 10px inset black;
+    border-radius: 37px 10px;
+}
+#frame-5{
+    padding-top: 24px;
+    padding-right: 20px;
+}
