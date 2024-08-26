@@ -19,7 +19,7 @@ body{
     background-color: #8C2F39;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',sans-serif;
     padding: 24px;
 }
 #redwood{
@@ -27,7 +27,7 @@ body{
     background-color: #A63D40;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 24px;
 }
 #bittersweet{
@@ -35,7 +35,7 @@ body{
     background-color: #B55F61;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     padding: 24px;
 }
 #old-rose{
@@ -43,12 +43,12 @@ body{
     background-color: #BC6E6F;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 24px;
 }
 #neon-colors{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif
     font-weight: bold;
 }
 #Amber{
@@ -56,7 +56,7 @@ body{
     background-color: #FFBE0B;
     color: black;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 24px;
 }
 #Orange{
@@ -64,7 +64,7 @@ body{
     background-color: #FB5607;
     color: black;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 24px;
 }
 #Rose{
@@ -72,7 +72,7 @@ body{
     background-color: #FF006E;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
     padding: 24px;
 }
 #Blue-Violet{
@@ -80,7 +80,7 @@ body{
     background-color: #8338EC;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:serif;
     padding: 24px;
 }
 #Azure{
@@ -88,7 +88,7 @@ body{
     background-color: #3A86FF;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:monospace;
     padding: 24px;
 }
 #Steam{
@@ -101,7 +101,8 @@ body{
     background-color: #171A21;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 24px; 
 }
 #Maya-Blue{
@@ -109,7 +110,7 @@ body{
     background-color: #66C0F4;
     color: black;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     padding: 24px;
 }
 #Prussian{
@@ -117,7 +118,7 @@ body{
     background-color: #1B2838;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:cursive;
     padding: 24px;
 }
 #Indigo{
@@ -125,7 +126,7 @@ body{
     background-color: #2A475E;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 24px;
 }
 #Columbia-Blue{
@@ -133,6 +134,6 @@ body{
     background-color: #C7D5E0;
     color: black;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     padding: 24px;
 }
