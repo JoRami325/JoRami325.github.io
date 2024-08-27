@@ -1,0 +1,73 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+#stickynote-1{
+    border: 10px solid lightgreen;
+    width: 180px;
+    height: 180px;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 12px;
+    display: inline-block;
+    margin-right: 40px;
+}
+#header{
+    text-decoration: underline;
+    text-align: center;
+}
+#stickynote-2{
+    border: 10px solid lightcoral;
+    width: 180px;
+    height: 180px;
+    background-color: lightcoral;
+    text-align: center;
+    padding: 16px;
+    display: inline-block;
+    margin-right: 40px;
+
+}
+#stickynote-3{
+    border: 10px solid skyblue;
+    width: 180px;
+    height: 180px;
+    background-color: skyblue;
+    text-align: center;
+    display: inline-block;
+
+}
+#Darla{
+    width: 200px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 15px;
+    margin-right: 40px;
+    display: inline-block;
+
+}
+#stickynote-4{
+    border: 10px solid lightyellow;
+    width: 180px;
+    height: 180px;
+    background-color: lightyellow;
+    text-align: center;
+    display: inline-block;
+    margin-right: 40px;
+}
+#stickynote-5{
+    border: 10px solid lightgray;
+    width: 180px;
+    height: 180px;
+    background-color: lightgray;
+    text-align: center;
+    display: inline-block;
+    margin-right: 40px;
+
+}
+#list{
+    text-align: left;
+}
