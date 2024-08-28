@@ -102,3 +102,9 @@ body{
     #image-test{
         text-align: center;
     }
+    *{
+        box-sizing: border-box;
+    }
+    .page layout{
+        background-color: greenyellow;
+    }
