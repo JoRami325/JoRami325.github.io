@@ -1,10 +1,15 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: gray;
+}
 #first-box{
     background-color: #350f35;
-    display: inline-block;
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 0px;
 }
 #first-product{
     text-align: center;
@@ -16,8 +21,10 @@
 }
 #second-box{
     background-color: rgb(169, 120, 214);
-    display: inline-block;
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 0px;
 }
 #second-product{
     text-align: center;
@@ -25,8 +32,10 @@
 }
 #third-box{
     background-color: #1b0f1b;
-    display: inline-block;
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 0px;
 }
 div p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
@@ -35,6 +44,15 @@ div p{
 div h1{
     font-family:;
 }
-div p#text{
+div p#footer{
     font-size: 25px;
+    font-family: fantasy;
+    color: white;
+}
+#footer-box{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 48px 0px;
+    margin-bottom: 0px;
 }
