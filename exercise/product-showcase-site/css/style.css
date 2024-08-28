@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+#first-box{
+    background-color: #350f35;
+    display: inline-block;
+    width: 100%;
+}
+#first-product{
+    text-align: center;
+    color: white;
+}
+#image{
+    width: 300px;
+    padding: 10px;
+}
+#second-box{
+    background-color: rgb(169, 120, 214);
+    display: inline-block;
+    width: 100%;
+}
+#second-product{
+    text-align: center;
+    
+}
+#third-box{
+    background-color: #1b0f1b;
+    display: inline-block;
+    width: 100%;
+}
+div p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif
+}
+div h1{
+    font-family:;
+}
+div p#text{
+    font-size: 25px;
+}
