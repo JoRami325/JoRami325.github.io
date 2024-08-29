@@ -3,7 +3,7 @@
 }
 body{
     margin: 0px;
-    font-family: sans-serif;
+    font-family: sans-serif;;
 }
 #two-column{
     display:flex;
@@ -11,22 +11,38 @@ body{
     text-align: center;
 }
 #sidebar-content{
-    background-color: lightcyan;
-    flex: 1;
+    border: 1px solid lightgray;
+    max-width: 300px;
+    background-color: rgb(207, 228, 235);
 }
 #main-content{
     padding: 48px;
     max-width: 800px;
-    flex: 1;
+    flex: 2;
+
 }
 #sidebar-content h2{
     font-style: italic;
     font-weight: bold;
+    
 }
 #sidebar-content ul li{
     list-style-type: none;
     padding: 4px 0px;
+    padding-right:28px;
 }
 #sidebar-content ul a{
     text-decoration: none;
+}
+#sidebar-content h2{
+    font-family:'Franklin Goth, sans-seic Medium', 'Arial Narrow', Arialrif
+}
+#sidebar-content div h2{
+    background-color: aqua;
+    padding: 10px;
+    margin: 0px;
+}
+#Kingdomheartslogo{
+    width: 200px;
+    padding-top: 24px;
 }
