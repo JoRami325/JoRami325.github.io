@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family:sans-serif;
+}
+#page-layout{
+    display: grid;
+    grid-template-columns: 250px 500px 1fr;
+    grid-template-columns: " ";
+
+}
+#column-1{
+    /* background-color: lightblue; */
+    
+}
+#column-2{
+    /* background-color: lightcyan; */
+    
+}
+#column-3{
+    /* background-color: lightgreen; */
+    padding-left: 16px;
+    text-align: center;
+}
+#Seagate{
+    width: 100%;
+    padding: 0px 24px;
+    background-color: lightgray;
+    border-radius: 12px;
+}
+#column-1 h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    margin-top: 48px;
+}
+#column-2 h3{
+    border: 2px solid black;
+    font-size: 12px;
+    color: lightgray;
+    border-radius: 24px;
+    padding: 10px;
+    margin-top: 48px;
+}
+.product{
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 48px;
+    padding: 12px;
+    background-color: lightgray;
+    border-radius: 12px;
+
+    
+}
+#blackoutline{
+    border: solid black;
+}
+#column-2 #button2{
+    color: white;
+    background-color: blue;
+    border-radius: 24px;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+#column-3 h2{
+    margin-top: 180px;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+#column-3 b{
+    font-size: 24px;
+}
+#column-3 p{
+padding: 18px;
+
+}
+#column-3 h3{
+    border: solid rgb(118, 167, 231);
+}
+#Bluebutton{
+    background-color: solid rgb(118, 167, 231);
+}
+
