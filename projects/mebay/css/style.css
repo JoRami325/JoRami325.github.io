@@ -4,16 +4,23 @@
 body{
     margin: 0px;
     font-family:sans-serif;
+    background-color: lightblue;
 }
 #page-layout{
     display: grid;
     grid-template-columns: 250px 500px 1fr;
-    grid-template-columns: " ";
 
 }
 #column-1{
     /* background-color: lightblue; */
     
+    
+}
+#column-1 h1{
+    border: 6px solid orangered;
+    border-radius: 24px;
+    margin: 38px;
+    background-color: white;
 }
 #column-2{
     /* background-color: lightcyan; */
@@ -22,13 +29,13 @@ body{
 #column-3{
     /* background-color: lightgreen; */
     padding-left: 16px;
-    text-align: center;
 }
 #Seagate{
     width: 100%;
     padding: 0px 24px;
     background-color: lightgray;
     border-radius: 12px;
+    margin-top: 54px;
 }
 #column-1 h1{
     text-align: center;
@@ -43,10 +50,11 @@ body{
     border-radius: 24px;
     padding: 10px;
     margin-top: 48px;
+    background-color: white;
 }
 .product{
     width: 50%;
-    margin-top: 80px;
+    margin-top: 18px;
     margin-left: 48px;
     padding: 12px;
     background-color: lightgray;
@@ -57,32 +65,57 @@ body{
 #blackoutline{
     border: solid black;
 }
-#column-2 #button2{
+#column-3 #button2{
     color: white;
     background-color: blue;
+    border: solid blue;
     border-radius: 24px;
     font-size: 14px;
     text-align: center;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-right: 150px;
+    margin-top: 48px;
+    padding: 5px;
+    
 }
 #column-3 h2{
-    margin-top: 180px;
+    margin-top: 70px;
     font-size: 20px;
     border-bottom: 1px solid;
     text-align: center;
+    border: solid lightgray;
+    border-radius: 10px;
+    background-color: lightgrey;
 }
 #column-3 b{
     font-size: 24px;
 }
 #column-3 p{
-padding: 18px;
+padding: 2px;
 
 }
 #column-3 h3{
-    border: solid rgb(118, 167, 231);
+    border: 1px solid blue;
+    border-radius: 24px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
 }
 #Bluebutton{
-    background-color: solid rgb(118, 167, 231);
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 19px;
+}
+#shipping{
+    border: solid lightgray;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+#Info-box{
+    border: solid lightgray;
+    background-color: lightgray;
+    border-radius: 10px;
 }
 
