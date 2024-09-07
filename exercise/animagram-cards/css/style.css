@@ -17,27 +17,50 @@ body{
 #animagram-card-1 .card-style-2{
     max-width: 350px;
     margin: 10px;
-    box-shadow: -4px 10px 4px #00000088;
+    min-height: 100vh;
 }
 .card-style-2{
+    max-width: 350px;
+    height: 535px;
+    margin-top: 14px;
+    margin-right: auto;
     border: 3px solid white;
     background-color: white;
-    border-radius: 18px;
+    border-radius: 30px;
     width: 350px;
-    gap: 100px;
+    flex-direction:column;
+    display: flex;
+    gap:1px;
+    align-items: center;
+    
 }
 .card-style-2 img{
-    height: 100%;
     width: 200px;
     border-radius: 50% 50%;
-    object-fit: cover;
-    justify-content: center;
+    
     
 }
 .animagram-footer{
-    text-align: center;
     font-size: 24px;
-    margin: 25px;
-    display: inline;
+    margin: 10px;
+    flex-direction: row;
+    display: inline-block;
+    gap: 70px;
+    align-items: center;
+
+}
+.card-style-2 p{
+    text-align: center;
+    font-size: 18px;
     
+    padding: 20px;
+}
+.card-style-2 h2{
+    text-align: center;
+    display: flex;
+;
+}
+.logo{
+    margin-top: 15px;
+    margin-right: 10px;
 }
