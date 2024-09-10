@@ -34,13 +34,14 @@ body{
     margin: 5vh 6vw 0px 2vh;
     margin-left: 8vw;
     border-radius: 14px;
+    font-size: 2vw;
     
 }
 #border-1{
     background-color: rgb(218, 212, 212);
     width: 40vw;
     border-radius: 24px;
-    margin: 5vw;
+    margin: 5vw 18vh;
     padding: 2px;
 }
 #hero-2{
