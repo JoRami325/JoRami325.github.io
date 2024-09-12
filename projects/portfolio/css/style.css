@@ -6,34 +6,31 @@ body{
     font-family: sans-serif;
 }
 #hero{
-    background-image: url(../images/tetris.JPG);
-    height: 80vh;
+    background-image: url(../images/Code\ Hero.avif);
+    height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
-    align-items: flex-end;
-    flex-direction: column;
     justify-content: center;
-    width: 100%;
-    min-width: 500px;
-    margin: 0px auto;
-    gap: 12px;
-    margin-bottom: 5vw;
+    align-items: center;
+    margin: 0px 0px 6vh 0px;
+}
+#hero .hero-content{
+    text-align: center;
+    color: white;
+    padding-bottom:8vh
+    
 }
 #hero h1{
-    color: white;
-    margin-right: 5vh;
-    margin-bottom: 5vw;
-    font-size: 3.5vh;
+    font-size: 4vw;
+    margin-bottom: 5vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #hero h4{
-    color: white;
-    margin: 0px 5vw 0px 0px;
-    font-size: 2vh;
+    font-size: 3vw;
+    margin: 0px;
 }
 #hero a{
-    margin: 5vh 5vw 10vh 0px;
     background-color: red;
     border: 3px solid red;
     text-decoration: none;
@@ -43,6 +40,7 @@ body{
     border-radius: 24px;
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 4vh;
 }
 #hero a:hover{
     background-color: transparent;
@@ -57,7 +55,7 @@ body{
     align-items: center;
     background-size: cover;
     height: 16vh;
-    background-position: center bottom;
+    background-position: center left;
 
     
 }
@@ -74,6 +72,8 @@ body{
     padding: 2vh 2vw;
     text-align: center;
     background-color: white;
+    margin-bottom: 6vh;
+    background-color:beige;
     
 }
 #about-me h3{
@@ -88,25 +88,26 @@ body{
 #footer{
     text-align: center;
 }
-#footer a{
+#back-button{
+    background-color: black;
+}
+#back-button a{
+    font-size: 2.5vh;
     background-color: red;
     border: 3px solid red;
-    text-decoration: none;
-    padding: 24px;
-    font-size: 1.5vw;
-    display: inline-block;
+    padding:2vh 2vw;
+    margin: 2vh 2vw 2vh 2vw;
+    color:white;
     border-radius: 24px;
-    color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 50%;
-    margin-top: 4vh;
+    text-decoration: none;
 }
-#footer a:hover{
+#back-button a:hover{
     background-color: transparent;
     border: 3px solid rgb(131, 6, 6);
     background-color: rgb(131, 6, 6);
     color:#999797
 }
+
 #gallery-header{
     display: flex;
     align-items: center;
@@ -116,34 +117,80 @@ body{
     min-width: 500px;
     margin: 0px auto;
     gap: 12px;
-    margin-bottom: 5vw;
+    background-color: black;
 }
 #gallery-header h2{
     font-size: 6vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 .gallery{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
-    min-width: 500px;
-    margin: 0px auto;
-    gap: 12px;
-    margin-bottom: 5vw;
-    border: 6px solid;
+        display:flex;
+        flex-wrap: wrap;
+        gap: 24px;
 }
 #Illustrator{
     font-size: 4vh;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-bottom: 6px solid;
-    width: 100%;
+    max-width: 800px;
+    margin: 48px auto;
     text-align: center;
+    border: 5px solid #333333;
+    padding: 38px;
+    background-color: beige;
 }
 .gallery img{
         height: 250px;
-        flex: 1;
+        width: 100%;
+        flex:1;
         object-fit: cover;
+}
+.side-by-side{
+   background-color: rgb(90, 90, 215);
+
+}
+.single-column{
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.card{
+    flex:1;
+    padding: 36px;
+    text-align: center;
+    border: 3px solid #333333;
+    margin: 36px;
+    background-color: white;
+    border: 6px solid #333333;
+
+    
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card h2{
+    font-size:4vh;
+}
+.card h3{
+    font-size:2vh;
+    display: block;
+    margin: 0px 0vh 6vh 0px;
+}
+.card a{
+    font-size: 2.5vh;
+    background-color: red;
+    border: 3px solid red;
+    padding:2vh 2vw;
+    color:white;
+    border-radius: 24px;
+    text-decoration: none;
+    gap: 10vw;
+}
+.card a:hover{
+        background-color: transparent;
+        border: 3px solid rgb(131, 6, 6);
+        background-color: rgb(131, 6, 6);
+        color:#999797
 }
