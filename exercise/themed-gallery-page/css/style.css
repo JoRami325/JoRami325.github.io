@@ -12,7 +12,7 @@ body{
 #hero{
     background-image: url(../images/Hero-FF.webp);
     background-size: cover;
-    height: 90vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -22,8 +22,19 @@ body{
     color: whitesmoke;
     font-size: 4vh;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 12vw;
-    margin-top: 10vw;
+    margin-left: 5vw;
+    margin-top: 18vw;
+    background-color: black;
+    padding: 8px;
+}
+#hero h4{
+    color: whitesmoke;
+    font-size: 2vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    padding: 8px;
+    display: flex;
+    align-items: flex-start;
 }
 .grid-gallery{
     display: grid;
