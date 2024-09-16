@@ -19,16 +19,12 @@ body {
     color: white;
     padding: 24px;
 }
-#navbar img{
-    width: 200px;
-}
 #navbar #logo{
-    margin-right: auto;
     color: white;
     display:flex;
-    justify-content: flex-start;
-    align-items: center;
-
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 #navbar .cta-button{
     background-color: white;
@@ -43,10 +39,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
                 'Lucida Sans', Arial, sans-serif;
     
-}
-#logo2 img{
-    width:90px;
-
 }
 #layout{
     width: 800px;
@@ -80,29 +72,13 @@ body {
 #footer a{
     text-decoration: none;
     color: white;
+    display: flex;
+    margin: 0px 4vw 0px 2vh;
 }
 #footer-navbar{
     width: 800px;
     margin: 0px auto;
     display: flex;
-    justify-content: space-between;
-}
-#footer-columns-navbar {
-    width: 800px;margin: 0px auto;
-    padding: 48px 0px;
-    display: flex;
-    justify-content: space-between;
-}
-    
-    
-#footer-columns-navbar div {
-    display: flex;
-    flex-direction: column;
-}
-    
-    
-#footer-columns-navbar a {
-    padding: 8px 0px;
 }
 #header2{
     position: sticky;
@@ -125,8 +101,7 @@ body {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    margin-left: 2vh;
+    justify-content: flex-end;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #navbar2{
@@ -143,10 +118,7 @@ body {
     color: white;
     padding: 24px;
 }
-#navbar2 img{
-    width: 200px;
-}
-#navbar2 #logo{
+#navbar2 #logo2{
     margin-right: auto;
 }
 #navbar2 .cta-button{
@@ -164,15 +136,18 @@ body {
     
 }
 #logo2 img{
-    width:90px;
-
+    width:50px;
+    margin: 0px 20px 0px 2vh;
 }
 #header2{
     position: sticky;
     top: 0px;
 }
 #footer2{
-    background:linear-gradient(to bottom, rgb(163, 102, 102), rgb(33, 14, 14));
+    background:linear-gradient(
+        to bottom, 
+        rgb(163, 102, 102), 
+        rgb(33, 14, 14));
     color: white;
     padding:12px;
 }
@@ -188,7 +163,6 @@ body {
 }
 #footer-columns-navbar2 div {
     display: flex;
-    flex-direction: column;
 }
 #footer-columns-navbar2 a {
     padding: 8px 0px;
@@ -213,9 +187,6 @@ body {
 #logo3{
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: 2vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #navbar3 h2{
@@ -224,7 +195,6 @@ body {
 #navbar3{
     background-color: black;
     display:flex;
-    justify-content: space-between;
     align-items: center;
     
 }
@@ -235,10 +205,10 @@ body {
     font-weight: bold;
 }
 #navbar3 img{
-    width: 200px;
+    width: 100px;
 }
-#navbar3 #logo{
-    margin-right: auto;
+#navbar3 #logo3{
+    margin: auto;
 }
 #navbar3 .cta-button{
     background-color: orange;
@@ -265,9 +235,12 @@ body {
     top: 0px;
 }
 #footer3{
-    background:linear-gradient(to bottom, rgb(163, 102, 102), rgb(33, 14, 14));
+    background:linear-gradient(
+        to bottom, 
+        orange, 
+        black);
     color: white;
-    padding:12px;
+    padding:24px;
 }
 #footer3 a{
     text-decoration: none;
@@ -279,17 +252,17 @@ body {
     display: flex;
     justify-content: space-between;
 }
-    #footer-columns-navbar3 div {
+#footer-columns-navbar3 div {
     display: flex;
     flex-direction: column;
 }
-    #footer-columns-navbar3 a {
+#footer-columns-navbar3 a {
     padding: 8px 0px;
 }
 #navbar-bottom3{
     background:linear-gradient(to bottom, white, orange);
-    display: flex;
-    justify-content: space-between;
+    padding: 10px;
+
 }
 #navbar-bottom3 a{
     text-decoration: none;
