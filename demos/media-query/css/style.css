@@ -131,8 +131,11 @@
         gap: 24px;
         }
         .content-containerh1 {
-        margin: 0px;font-size: 32px}.content-container{
-        text-align: center;}.grid{
+        margin: 0px;font-size: 32px}
+        .content-container{
+        text-align: center;
+        }   
+        .grid{
         grid-template-columns: 1fr;
         grid-template-areas: 
             "txt1"
