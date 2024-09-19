@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: lightslategray;
+}
+#cards-container{
+    display: flex;
+    flex: wrap;
+    align-items: flex-start;
+}
+.card{
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: white;
+}
+.card a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    border: 3px solid white;
+    padding: 12px;
+    margin-top: 36px;
+    background-color: black;
+}
+#card1 a{
+    transition: background-color 0.5s, box-shadow 0.5, transform 0.5;
+}
+#card1:hover a{
+    background-color: white;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    color:black;
+    border: 3px solid black;
+}
+#card2{
+    position:relative;
+}
+#card2 .card-content{
+    position: absolute;
+    background-color: white;
+    border:3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    margin: 0px 24px;
+    padding: 24px;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+#card2:hover .card-content{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+#card3:hover{
+    background-color: black;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    border: 3px solid yellow;
+    color: white;
+}
+#card3:hover a{
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+}
+#card4 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 1.0s,
+        visibility 1.0s,
+        transform 1.0s;
+}
+
+#card4:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
