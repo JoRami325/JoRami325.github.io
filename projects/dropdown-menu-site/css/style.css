@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/Background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+}
+#navbar{
+    background-color: lightskyblue;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    
+}
+#navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+#navbar a:hover{
+    background-color: rgb(79, 143, 182);
+    color: rgb(237, 237, 237);
+}
+#navbar #logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+.dropdown-container{
+    position:relative;
+}
+.dropdown-menu{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25, visibility 0.25;
+    z-index: 10;
+}
+.dropdown-container:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu a{
+    background-color: rgb(69, 124, 158);
+    width: 100%;
+    min-width: 200px;
+}
+.card-container{
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+}
+.card{
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 24px;
+    text-align: center;
+    background-color: white;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+#card2 img{
+    height: 400px;
+    object-fit:scale-down;
+}
+.card h2{
+    font-size: 30px;
+}
+.card-content p{
+    font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+    
+}
