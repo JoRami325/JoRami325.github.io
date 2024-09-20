@@ -6,7 +6,7 @@ body{
     font-family: sans-serif;
     /* background-image: url(../images/Background.jpg); */
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
     height: 100vh;
     
 }
@@ -53,6 +53,16 @@ body{
     width: 100%;
     min-width: 200px;
 }
+#hero{
+    background-image: url(../images/Hero.avif);
+    background-position: center top;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
 .card-container{
     width: 50%;
     min-width: 500px;
@@ -67,6 +77,7 @@ body{
     text-align: center;
     background-color: beige;
     box-shadow: 4px 4px 4px #00000033;
+    width: 100%;
 }
 .card img{
     width: 100%;
@@ -79,12 +90,12 @@ body{
     object-fit:scale-down;
 }
 .card h2{
-    font-size: 30px;
-    margin: 12px;
+    font-size: 26px;
+    margin: 2vh 0px 4vh 0pc;
 }
 .card-content p{
-    font-size: 20px;
-    margin: 0px ;
+    font-size: 16px;
+    margin: 2vh 0px 2vw 0px;
     width: 100%;
 }
 @media screen and (max-width: 480px) {
@@ -94,23 +105,36 @@ body{
     #navbar{
         background-color: lightskyblue;
         border-bottom: 3px solid black;
-        align-items: flex-start;
+        margin: 0px;
+
+
     }
     #navbar a{
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        margin: auto;
+        margin: 0px;
         font-size: 14px;
     }
     #navbar #logo{
         font-size: 18px;
+        margin: 0px;
     }
     .card{
         display: flex;
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 60%;
+    }
+    .card h2{
+        font-size: 20px;
+        margin: 0vh 2vh 2vh 0px;
+        text-shadow: 4px 4px 4px #00000033;
+    }
+    .card p{
+        font-size: 16px;
+        margin: 2vh 0px 0px 0px;
+        text-shadow: 4px 4px 4px #00000033;
     }
 }
