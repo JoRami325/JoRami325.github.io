@@ -12,7 +12,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
 }
 #hero-content-1 h1{ 

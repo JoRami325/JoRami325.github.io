@@ -18,26 +18,30 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 
+                'Trebuchet MS', sans-serif;
 }
 #navbar #logo{
     color: white;
     display:flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right:auto;
+    padding: 10px;
+    font-size: 24px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+
     
 }
-#navbar .cta-button{
+#navbar #cta-button{
     background-color: white;
     color: red;
     border-radius: 26px;
-    padding: 16px;
-    font-size: 20px;
+    padding: 10px;
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-                'Lucida Sans', Arial, sans-serif;
     
 }
 #layout{
@@ -72,13 +76,12 @@ body {
 #footer a{
     text-decoration: none;
     color: white;
-    display: flex;
-    margin: 0px 4vw 0px 2vh;
 }
 #footer-navbar{
     width: 800px;
     margin: 0px auto;
     display: flex;
+    justify-content: space-between;
 }
 #header2{
     position: sticky;
@@ -98,7 +101,7 @@ body {
                 sans-serif;
 }
 #logo2{
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -107,23 +110,26 @@ body {
 #navbar2{
     background: linear-gradient(
         to bottom, 
-        rgb(163, 102, 102), 
-        rgb(33, 14, 14));
+        rgb(227, 57, 57), 
+        rgb(190, 190, 132));
     display:flex;
     justify-content: flex-end;
     align-items: center;
 }
 #navbar2 a{
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 24px;
+    font-size: 20px;
+    font-weight: bold;
 }
 #navbar2 #logo2{
     margin-right: auto;
 }
 #navbar2 .cta-button{
-    background-color: white;
-    color: red;
+    background-color: rgb(252, 191, 78);
+    color: black;
+    font-weight: bold;
     border-radius: 26px;
     padding: 16px;
     font-size: 20px;
@@ -144,21 +150,24 @@ body {
     top: 0px;
 }
 #footer2{
-    background:linear-gradient(
-        to bottom, 
-        rgb(163, 102, 102), 
-        rgb(33, 14, 14));
-    color: white;
+    background: linear-gradient(
+        to top, 
+        rgb(227, 57, 57), 
+        rgb(190, 190, 132));
+    color: black;
     padding:12px;
+    display: flex;
+    flex-direction: column;
+
 }
 #footer2 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 #footer-navbar2{
     width: 800px;
     margin: 0px auto;
-    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 #footer-columns-navbar2 div {
@@ -193,54 +202,34 @@ body {
     color: orange;
 }
 #navbar3{
-    background-color: black;
+    background-image: url(../images/Halloween-Hero.jpg);
+    background-position: center center;
+    background-size: cover;
     display:flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     
 }
-#navbar3 a{
-    text-decoration: none;
-    color: orange;
-    padding: 24px;
-    font-weight: bold;
-}
-#navbar3 img{
-    width: 100px;
-}
-#navbar3 #logo3{
-    margin: auto;
-}
-#navbar3 .cta-button{
-    background-color: orange;
+#navbar3 h1{
     color: black;
-    border-radius: 26px;
-    padding: 16px;
-    font-size: 20px;
-    min-width: 150px;
-    text-align: center;
-    margin-right: 24px;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-                'Lucida Sans', Arial, sans-serif;
-    
 }
-#logo3 img{
-    width:90px;
-    display: flex;
-
-
+#navbar3 h3{
+    color: black;
+    border-bottom: 3px solid black;
+}
+#navbar-mid3 img{
+    width: 5%;
 }
 #header3{
     position: sticky;
     top: 0px;
 }
 #footer3{
-    background:linear-gradient(
-        to bottom, 
-        orange, 
-        black);
+    background-color: black;
     color: white;
-    padding:24px;
+    display: flex;
+    padding: 24px;
 }
 #footer3 a{
     text-decoration: none;
@@ -249,24 +238,48 @@ body {
 #footer-navbar3{
     width: 800px;
     margin: 0px auto;
-    display: flex;
+    display:flex;
     justify-content: space-between;
-}
-#footer-columns-navbar3 div {
-    display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 #footer-columns-navbar3 a {
     padding: 8px 0px;
 }
+#navbar-mid3{
+    background-color:black;
+    display: flex;
+    border-bottom:3px solid #333333;
+}
+#navbar-mid3 a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    margin: auto;
+}
+#navbar-mid3 h2{
+    color: orange;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+#navbar-mid3 .cta-button{
+    border: 3px solid orange;
+    border-radius: 24px;
+    background-color: orange;
+    color: black;
+    padding: 8px;
+}
 #navbar-bottom3{
-    background:linear-gradient(to bottom, white, orange);
+    background:linear-gradient(to bottom, rgb(247, 224, 181), orange);
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 
 }
 #navbar-bottom3 a{
     text-decoration: none;
     color: black;
-    padding: 12px 36px;
     font-weight: bold;
+    padding: 8px;
+    align-items: center;
 }
