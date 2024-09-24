@@ -129,3 +129,7 @@ body{
     padding: 24px;
     font-size: 18px;
 }
+.info-box img{
+    border-radius: 24px;
+    width: 80vh;
+}
