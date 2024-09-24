@@ -5,14 +5,17 @@ body{
     margin: 0px;
 }
 #navbar{
-    background:
-        linear-gradient(to top, rgb(123, 122, 122), rgb(34, 34, 59));
+    background-color: lightgray;
+    border-bottom:3px solid black;
     
 }
 #navbar-content{
     display: flex;
     align-items: center;
-    margin: 0px 2vh 2px 0px;
+    margin: 0px 2vh 0px 0px;
+    background:
+        linear-gradient(to top, rgb(123, 122, 122), rgb(34, 34, 59));
+        border-bottom: 3px solid black;
 }
 #navbar-content a{
     text-decoration: none;
@@ -48,6 +51,7 @@ body{
     border-bottom: 3px solid black;
     justify-content: space-between;
     padding: 12px;
+    border-top: 3px solid black;
 }
 #navbar-bot a{
     text-decoration: none;
@@ -98,4 +102,30 @@ body{
     margin: 4vh 9vw 0px 2vw;
     font-size: 24px;
 
+}
+#hero a:hover{
+    background-color: #223439;
+    border: 3px solid #223439;
+    color: #4a717b;
+}
+.info-box{
+    border: 8px inset #9E51A0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8vh;
+    background-color: #e389e8;
+}
+.info-box h1{
+    font-size: 38px;
+    margin: 4vw 0px 2vh 0px;
+}
+.info-box p{
+    text-align: center;
+    padding: 24px;
+    font-size: 18px;
 }
