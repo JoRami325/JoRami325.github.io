@@ -7,7 +7,7 @@ body{
     background-image: url(../images/Background.jpg);
     background-size: cover;
     background-position: center bottom;
-    height: 100vh;
+    height: 125vh;
     
 }
 #navbar{
@@ -18,21 +18,27 @@ body{
     
 }
 #navbar a{
-    display: inline-block;
+    display: flex;
+    margin: 0px auto;
     text-decoration: none;
     color: black;
-    padding: 24px;
+    padding: 24px;;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #navbar a:hover{
     background-color: rgb(79, 143, 182);
     color: rgb(237, 237, 237);
 }
 #navbar #logo{
-    margin-right: auto;
     font-weight: bold;
     font-size: 24px;
-    padding-top: 13px;
-    padding-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+                'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row-reverse
 }
 .dropdown-container{
     position:relative;
@@ -56,17 +62,59 @@ body{
 #hero{
     background-image: url(../images/Hero.avif);
     background-position: center top;
-    background-size: cover;
-    height: 40vh;
+    background-size:cover;
+    height: 70vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border-bottom: 3px solid;
+    min-width: 480px;
     
 }
-.card-container{
+#home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 4vw auto;
+    border: 3px solid black;
     width: 50%;
-    min-width: 500px;
-    margin: 0px auto;
+    background-color: beige;
+    padding: 24px;
+}
+#home a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight:bold;
+    border: 3px solid;
+    background-color: lightblue;
+    border-radius: 24px;
+    padding: 10px;
+    
+}
+#home a:hover{
+    background-color: rgb(69, 124, 158);
+    color: white;
+
+}
+#home-card-content p{
+    width: 100%;
+    padding: 12px;
+    margin: 2vw 0px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-container{
+    width: 60%;
+    margin: auto;
+    max-width: 500px;
+    min-width: 480px;
+
+    
 }
 .card{
     flex: 300px;
@@ -77,7 +125,6 @@ body{
     text-align: center;
     background-color: beige;
     box-shadow: 4px 4px 4px #00000033;
-    width: 100%;
 }
 .card img{
     width: 100%;
@@ -87,7 +134,7 @@ body{
 }
 #card2 img{
     height: 400px;
-    object-fit:scale-down;
+    object-fit:cover;
 }
 .card h2{
     font-size: 26px;
@@ -98,7 +145,7 @@ body{
     margin: 2vh 0px 2vw 0px;
     width: 100%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 750px){
     body{
         /* background-color: lightcoral; */
     }
@@ -106,26 +153,30 @@ body{
         background-color: lightskyblue;
         border-bottom: 3px solid black;
         margin: 0px;
+        display: flex;
+        justify-content: flex-end;
 
 
     }
     #navbar a{
-        display: flex;
-        justify-content: flex-start;
+        display: inline-block;
         align-items: center;
-        margin: 0px;
-        font-size: 14px;
+        font-size: 16px;
+        justify-content:flex-end;
     }
     #navbar #logo{
         font-size: 18px;
         margin: 0px;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        
     }
     .card{
         display: flex;
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
     }
     .card h2{
         font-size: 20px;
