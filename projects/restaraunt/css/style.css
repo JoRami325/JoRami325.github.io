@@ -5,7 +5,7 @@ body{
     margin: 0px;
 }
 #navbar{
-    background-color: lightgray;
+    background-color: #334b52;
     border-bottom:3px solid black;
     
 }
@@ -37,7 +37,7 @@ body{
     color: #4a717b;
 
 }
-#navbar-content #logo{
+#logo{
     width:12px;
     margin-right:auto;
     margin-left: 24px;
@@ -110,7 +110,7 @@ body{
 }
 .info-box{
     border: 8px inset #9E51A0;
-    width: 50%;
+    width: 80%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -128,8 +128,93 @@ body{
     text-align: center;
     padding: 24px;
     font-size: 18px;
+    max-width: 1000px;
 }
 .info-box img{
     border-radius: 24px;
-    width: 80vh;
+    width: 60vw;
+}
+.card-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "slot1 slot2 slot3";
+    text-align: center;
+    padding: 30px;
+}
+.cards{
+    border: 8px outset #9E51A0;
+    width: 50%;
+    margin: auto;
+    background-color: #e389e8;
+    max-width: 800px;
+    min-width: 250px;
+}
+.cards img{
+    display: flex;
+    width: 220px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 24px;
+    border: 6px solid #223439;
+}
+.cards p{
+    padding: 24px;
+}
+.card-content a{
+    display: flex;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    border: 3px solid black;
+    background-color: black;
+    padding: 6px 48px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.card-content a:hover{
+    background-color: #223439;
+    border: 3px solid #223439;
+    color: #4a717b;
+}
+#card1{
+    grid-area: slot1;
+}
+#card2{
+    grid-area: slot2;
+    border: 8px inset #9E51A0;
+}
+#card3{
+    grid-area: slot3;
+}
+#footer-content{
+    min-width: 400px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0px auto;
+    border: 3px solid #9E51A0;
+    background:
+    linear-gradient(to bottom, rgb(186, 84, 186), rgb(113, 62, 62));
+    padding: 10px;
+}
+#footer-a a{
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 3px solid black;
+    padding: 10px 28px;
+    margin: 24px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+#footer-a a:hover{
+    background-color: #223439;
+    border: 3px solid #223439;
+    color: #4a717b;
 }
