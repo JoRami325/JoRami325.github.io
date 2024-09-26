@@ -5,17 +5,17 @@ body{
     margin: 0px;
 }
 #navbar{
-    background-color: #334b52;
+    background-color: #223439;
     border-bottom:3px solid black;
     
 }
 #navbar-content{
     display: flex;
     align-items: center;
-    margin: 0px 2vh 0px 0px;
+    margin: 0px;
+    border-bottom: 3px solid black;
     background:
-        linear-gradient(to top, rgb(123, 122, 122), rgb(34, 34, 59));
-        border-bottom: 3px solid black;
+    linear-gradient(to top, rgb(123, 122, 122), rgb(34, 34, 59));
 }
 #navbar-content a{
     text-decoration: none;
@@ -217,4 +217,83 @@ body{
     background-color: #223439;
     border: 3px solid #223439;
     color: #4a717b;
+}
+    .menu-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "slot-1 slot-2 slot-3"
+            "slot4 slot5 slot6"
+            "slot7 slot8 slot9";
+        width: 80%;
+        margin: 0px auto;
+        background-color: white;
+        text-align: center;
+        padding: 10px 32px;
+    }
+    .menu-cards img{
+        width: 240px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 24px;
+        border: 6px solid #223439;
+        background-size: cover;
+    }
+    .menu-cards p{
+        padding: 24px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .menu-card-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 8px outset #9E51A0;
+        background-color: #e389e8;
+        margin: 2vw 2vh 2vw 2vh;
+        border-radius: 24px;
+    }
+    .menu-card-content a{
+        text-decoration: none;
+        color: white;
+        border: 3px solid black;
+        background-color: black;
+        font-size: 24px;
+        padding:10px 12px;
+        margin-bottom: 16px;
+        border-radius: 24px;
+    }
+    .menu-card-content a:hover{
+        background-color: #223439;
+        border: 3px solid #223439;
+        color: #4a717b;
+    }
+    #menu-card2 img{
+        width: 220px;
+    }
+    #menu-card1{
+        grid-area: slot-1;
+    }
+    #menu-card2{
+        grid-area: slot-2;
+    }
+@media screen and (max-width:800px) {
+    body{
+        background-color: red;
+    }
+    #navbar-content{
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar-content #logo{
+        width: 60px;
+        display: flex;
+        flex-dire;
+
+    }
+    #navbar-content a{
+        font-size: 16px;
+        padding: 2px;
+        margin: 0px 0px 2vw 0px;
+    }
 }
