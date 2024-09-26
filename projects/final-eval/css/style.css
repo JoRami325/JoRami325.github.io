@@ -98,3 +98,16 @@ body{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#bottom-page h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+#bottom-page p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width:600px) {
+    body{
+        background-color: lightcoral;
+    }
+    
+    
+}
