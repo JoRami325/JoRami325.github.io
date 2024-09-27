@@ -5,7 +5,7 @@ body{
     margin: 0px;
 }
 #navbar{
-    background-color: #223439;
+    /* background-color: #223439; */
     border-bottom:3px solid black;
     
 }
@@ -287,6 +287,8 @@ body{
         background-color: #e389e8;
         margin: 2vw 2vh 2vw 2vh;
         border-radius: 24px;
+        max-width: 400px;
+        min-width: 300px;
     }
     .menu-card-content a{
         text-decoration: none;
@@ -331,9 +333,119 @@ body{
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
                     'Lucida Sans', Arial, sans-serif;
     }
-@media screen and (max-width:600px){
+    @media screen and (max-width: 480px){
+        body{
+            background-color: red;
+        }
+        #navbar-content{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+    
+        }
+        #navbar-content img{
+            display: flex;
+            margin: auto;
+            
+        }
+        #navbar-content a{
+            font-size: 12px;
+            padding: 1px;
+            margin: 0px 0px 2vw 0px;
+        }
+        #navbar-bot a{
+            font-size: 12px;
+            padding: 4px 10px;
+        }
+        #hero{
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+        }
+        #hero h1{
+            font-size: 20px;
+        }
+        #hero h3{
+            font-size: 12px;
+        }
+        #hero a{
+            font-size: 14px;
+        }
+        .info-box{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 80%;
+        }
+        #about-us h1{
+            font-size: 24px;
+        }
+        .info-box p{
+            font-size: 12px;
+            width: 80%;
+        }
+        .info-box img{
+            width: 80%;
+        }
+        .card-box{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .cards{
+            margin-top: 10px;
+    
+        }
+        .cards img{
+            width: 60%;
+            background-size: cover;
+            display: inline-block;
+        }
+        .cards h2{
+            font-size: 20px;
+        }
+        .cards p{
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .cards a{
+            font-size: 16px;
+            padding: 6px;
+        }
+        #footer{
+        }
+        #footer-content a{
+            display: flex;
+            font-size: 14px;
+            padding: 4px 12px;
+            flex-direction: column;
+            text-align: center;
+            margin: 2px auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu-cards{
+            margin: 0px auto;
+            display: inline-block;
+
+        }
+        .menu-card-content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40%;
+            margin: 12px;
+        }
+        .menu-card-content a{
+            display:inline-block;
+            padding: 4px 12px;
+            justify-content: center;
+        }
+}        
+@media screen and (max-width:700px) and (min-width:481px){
     body{
-        background-color: red;
+        
     }
     #navbar-content{
         display: flex;
