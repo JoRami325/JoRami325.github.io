@@ -331,7 +331,7 @@ body{
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
                     'Lucida Sans', Arial, sans-serif;
     }
-@media screen and (max-width:800px){
+@media screen and (max-width:1000px){
     body{
         background-color: red;
     }
