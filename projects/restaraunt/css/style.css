@@ -5,7 +5,7 @@ body{
     margin: 0px;
 }
 #navbar{
-    /* background-color: #223439; */
+    background-color: #223439;
     border-bottom:3px solid black;
     
 }
@@ -25,7 +25,7 @@ body{
     margin-right: 24px;
     text-align: center;
     font-weight: bold;
-    color: #223439;
+    color: white;
     background-color: #9E51A0;
     min-width: 150px;
     border-radius: 12px;
@@ -35,7 +35,7 @@ body{
 #navbar-content a:hover{
     background-color: #b272b5;
     border: 3px solid #b272b5;
-    color: #4a717b;
+    color: #719ba6;
 
 }
 .dropdown-container{
@@ -278,6 +278,7 @@ body{
         padding: 24px;
         font-size: 18px;
         font-weight: bold;
+        text-shadow: 2px 4px 4px #333333;
     }
     .menu-card-content{
         display: flex;
@@ -333,7 +334,49 @@ body{
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
                     'Lucida Sans', Arial, sans-serif;
     }
-    @media screen and (max-width: 500px){
+    .menu-card-content a{
+        font-size: 18px;
+        display: inline-block;
+    }
+    #menu-card2{
+    }
+    .menu-cards #menu-card2 a{
+        margin-top: 36px;
+    }
+    .menu-cards #menu-card3 a{
+        margin-top: 48px;
+    }
+    .menu-cards #menu-card6 a{
+        margin-top: 24px;
+    }
+    .menu-cards #menu-card7 a{
+        margin-top: 22px;
+    }
+    .menu-card-content a{
+        font-size: 18px;
+        display: inline-block;
+    }
+    #menu-card2{
+    }
+    .menu-cards #menu-card2 a{
+        margin-top: 36px;
+    }
+    .menu-cards #menu-card3 a{
+        margin-top: 48px;
+    }
+    .menu-cards #menu-card6 a{
+        margin-top: 24px;
+    }
+    .menu-cards #menu-card7 a{
+        margin-top: 22px;
+    }
+    .menu-cards #menu-card8 a{
+        margin-top: 24px;
+    }
+    .menu-cards #menu-card9 a{
+        margin-top: 24px;
+    }
+    @media screen and (max-width: 900px){
         body{
             /* background-color: red; */
         }
@@ -453,22 +496,22 @@ body{
             font-size: 16px;
         }
 }        
-@media screen and (max-width:1150px) and (min-width:501px){
+@media screen and (min-width:901px) and (max-width:1350px){
     body{
-        background-color: red;
+        /* background-color: red; */
     }
     #navnar{
     }
     #navbar-content a{
         font-size: 16px;
-        padding: 2px 18px;
+        padding: 4px 28px;
         margin: 3vw 4vw 0vw 2vw;
     }
     #navbar-bot a{
         display: flex;
         flex-wrap: wrap;
         font-size: 16px;
-        padding: 4px 22px;
+        padding: 8px 26px;
     }
     .dropdown-menu{
         margin: 0px auto;
@@ -495,7 +538,7 @@ body{
         font-size: 34px;
     }
     .info-box p{
-        font-size: 20px;
+        font-size: 16px;
         width: 80%;
     }
     .info-box img{
@@ -523,11 +566,24 @@ body{
     }
     .menu-cards{
         width: 90%;
-        min
+        min-width: 1100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "menu1 menu2"
+            "menu3 menu4"
+            "menu5 menu6"
+            "menu7 menu8";
     }
     .menu-card-content{
         display: inline-block;
+        max-width: 400px;
 
+    }
+    .menu-card-content img{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .menu-card-content h2{
         font-size: 22px;
@@ -535,6 +591,7 @@ body{
     }
     .menu-card-content h3{
         font-size: 18px;
+        display:block;
     }
     .menu-card-content p{
         display: inline-block;
@@ -542,6 +599,44 @@ body{
     }
     .menu-card-content a{
         font-size: 18px;
-        display: inline;
+        display: inline-block;
+    }
+    #menu-card2{
+    }
+    .menu-cards #menu-card2 a{
+        margin-top: 36px;
+    }
+    .menu-cards #menu-card3 a{
+        margin-top: 48px;
+    }
+    .menu-cards #menu-card6 a{
+        margin-top: 24px;
+    }
+    .menu-cards #menu-card7 a{
+        margin-top: 22px;
+    }
+    #menu-card1{
+        grid-area: menu1;
+    }
+    #menu-card2{
+        grid-area: menu2;
+    }
+    #menu-card3{
+        grid-area: menu3;
+    }
+    #menu-card4{
+        grid-area: menu4;
+    }
+    #menu-card5{
+        grid-area: menu5;
+    }
+    #menu-card6{
+        grid-area: menu6;
+    }
+    #menu-card7{
+        grid-area: menu7;
+    }
+    #menu-card8{
+        grid-area: menu8;
     }
 }
