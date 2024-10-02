@@ -61,12 +61,12 @@ body{
     width: 100%;
     min-width: 200px;
 }
-#logo{
-    width:12px;
+#navbar-content #logo{
+    width:200px;
     margin-right:auto;
     margin-left: 24px;
-    min-width: 150px;
     
+
 }
 #navbar-bot{
     display: flex;
@@ -253,6 +253,10 @@ body{
     border: 3px solid #223439;
     color: #4a717b;
 }
+#footer-content #logo{
+    width: 100px;
+    margin: auto;
+}
     .menu-cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -397,7 +401,7 @@ body{
             margin: 0px 0px 2vw 0px;
         }
         #navbar-bot a{
-            font-size: 12px;
+            font-size: 14px;
             padding: 4px 10px;
         }
         #hero{
@@ -406,13 +410,13 @@ body{
             flex-direction: column;
         }
         #hero h1{
-            font-size: 20px;
+            font-size: 24px;
         }
         #hero h3{
-            font-size: 12px;
+            font-size: 16px;
         }
         #hero a{
-            font-size: 14px;
+            font-size: 16px;
         }
         .info-box{
             display: flex;
